@@ -60,17 +60,17 @@ function App() {
 
 
   return (
-      <div className="homepage" style={mode === "light" ? lightmode : darkmode}>
-
 		
-		<BrowserRouter>
-		<Header mode={mode} setMode={setMode}/>
-		<Routes>
-       			<Route path="/countries/" element={<Home />}/>
-       			<Route path="/countries/:name" element={<Country />}/>
-       		</Routes>
+		<BrowserRouter basename={`https://nagahrady0.github.io/countries`}>
+			<div className="homepage" style={mode === "light" ? lightmode : darkmode}>
+				<Header mode={mode} setMode={setMode}/>
+				<Routes>
+		       			<Route path="/countries/" element={<Home />}/>
+		       			<Route path="/countries/:name" element={<Country />}/>
+		       		</Routes>
+	       		</div>
        		</BrowserRouter>      		
-      </div>
+
   );
 }
 
