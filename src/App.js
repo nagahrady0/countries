@@ -61,7 +61,7 @@ function App() {
 
   return (
 		
-		<BrowserRouter basename="https://nagahrady0.github.io/countries/">
+		<BrowserRouter >
 			<div className="homepage" style={mode === "light" ? lightmode : darkmode}>
 				<Header mode={mode} setMode={setMode}/>
 				<Routes>
