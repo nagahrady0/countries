@@ -1,0 +1,35 @@
+.search .search-methoods .col-left div{
+position:relative; 
+}
+
+.search .search-methoods .col-left div .icon-search{
+position:absolute;
+top:50%;
+left:20px;
+transform:translateY(-50%);
+}
+.search .search-methoods .col-left div input{
+	width:30vw;
+	height:40px;
+	text-indent:50px;
+	border:none;
+	outline:none;
+	border-radius:10px;
+	color:var(--heading-color);		
+	box-shadow:var(--shadow);
+ 	background:var(--second-background);
+} 
+
+
+
+
+@media(max-width:767px){
+
+
+.search .search-methoods .col-left div input{
+	width:100%;
+}
+
+
+}
+

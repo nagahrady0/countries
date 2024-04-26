@@ -1,0 +1,27 @@
+
+
+.search-methoods{
+
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:10px 20px
+	
+}
+@media(max-width:767px){
+
+
+
+
+.search-methoods{
+
+flex-direction:column;
+align-items:flex-start;
+gap:50px;
+}
+
+.search-methoods .col-left{
+width:100%;
+}
+ 
+}

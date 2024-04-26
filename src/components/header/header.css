@@ -1,0 +1,22 @@
+header {	
+		background:var(--second-background);
+		display:flex;
+		justify-content:space-between;
+		align-items:center;
+		height:70px;
+		border-bottom:1px solid rgba(0,0,0,.2);
+		box-shadow:var(--shadow);
+		padding:10px 20px;
+		color:var(--heading-color);
+	}
+
+
+header div{
+		display:flex;
+		align-items:center;
+		gap:10px;
+}
+
+header div i{
+cursor:pointer;
+}

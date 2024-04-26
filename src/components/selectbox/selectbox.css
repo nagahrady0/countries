@@ -1,0 +1,20 @@
+.search .search-methoods .col-right select{
+  padding: 10px 100px;
+  color: var(--heading-color);
+  background:var(--second-background);
+  font-size:20px;
+  border: none;
+  cursor: pointer;
+  box-shadow:var(--shadow);  
+  }
+  
+  @media(max-width:767px){
+
+
+.search .search-methoods .col-right select{
+  padding: 10px 50px;
+}
+
+
+}
+
