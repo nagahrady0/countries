@@ -27,7 +27,7 @@ return(
 	<>
 	
 	<div className="country">
-		<Link to="/" className="back">
+		<Link to="/countries/" className="back">
 				back
 		</Link>	 
 		<div className="content info">

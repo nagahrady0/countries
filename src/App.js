@@ -66,7 +66,7 @@ function App() {
 		<BrowserRouter>
 		<Header mode={mode} setMode={setMode}/>
 		<Routes>
-       			<Route path="/" element={<Home />}/>
+       			<Route path="/countries/" element={<Home />}/>
        			<Route path="/countries/:name" element={<Country />}/>
        		</Routes>
        		</BrowserRouter>      		
